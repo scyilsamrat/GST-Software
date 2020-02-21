@@ -762,7 +762,7 @@ class Application:
         sheet.cell(row=l+12, column=1).alignment = ali
         sheet.cell(row=l+12, column=1).font = fontStyle
         sheet.merge_cells(start_row=l+13, start_column=1, end_row=13+l, end_column=3)
-        sheet.cell(row=l+13, column=1).value="-----------------------------------------------"
+        sheet.cell(row=l+13, column=1).value="------------------------------------------------"
         sheet.cell(row=l+13, column=1).font = fontStyle        
         sheet.merge_cells(start_row=l+14, start_column=1, end_row=l+14, end_column=3)
         sheet.cell(row=l+14, column=1).value="Tax       Tax%        Taxable           TaxAmt"
